@@ -5,14 +5,14 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
-    "test": "jest --config=jest.config.mjs",
-    "test:watch": "jest --config=jest.config.mjs --watch",
-    "test:coverage": "jest --config=jest.config.mjs --coverage",
+    "test": "jest --config jest.config.mjs",
+    "test:watch": "jest --config jest.config.mjs --watch",
+    "test:coverage": "jest --config jest.config.mjs --coverage",
     "start": "next start",
     "lint": "next lint",
     "format": "prettier \"**/*.?(c|m)[jt]s?(x)\" --write",
     "prepare": "husky",
-    "commitlint": "commitlint --config=commitlint.config.mjs --edit"
+    "commitlint": "commitlint --config commitlint.config.mjs --edit"
   },
   "lint-staged": {
     "*.?(c|m)[jt]s?(x)": [
