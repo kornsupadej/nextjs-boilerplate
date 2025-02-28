@@ -6,7 +6,7 @@ on:
       - '**'
 
 jobs:
-  run-lint:
-    uses: ./.github/workflows/lint.yaml@master
-  run-test:
-    uses: ./.github/workflows/test.yaml@master
+  ci-lint:
+    uses: kornsupadej/nextjs-boilerplate/.github/workflows/lint.yaml@master
+  ci-test:
+    uses: kornsupadej/nextjs-boilerplate/.github/workflows/test.yaml@master
