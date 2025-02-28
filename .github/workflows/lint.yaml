@@ -26,5 +26,5 @@ jobs:
       - name: Install Dependencies
         run: pnpm i --frozen-lockfile
 
-      - name: Run Lint Check
-        run: pnpm lint:check
+      - name: Run ESLint
+        run: pnpm lint

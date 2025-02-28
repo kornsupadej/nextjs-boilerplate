@@ -7,6 +7,6 @@ on:
 
 jobs:
   run-lint:
-    uses: kornsupadej/setting-resolver/.github/workflows/lint.yaml@master
+    uses: ./.github/workflows/lint.yaml@master
   run-test:
-    uses: kornsupadej/setting-resolver/.github/workflows/test.yaml@master
+    uses: ./.github/workflows/test.yaml@master
