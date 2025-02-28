@@ -20,7 +20,7 @@ const eslintConfig: Linter.Config[] = [
   pluginJestDom.configs['flat/recommended'],
   pluginTestingLibrary.configs['flat/react'],
   {
-    files: ['__specs__/**/*.?(e2e-){test,spec}.?(c|m)[jt]s?(x)'],
+    files: ['__specs__/**/?(*.)+(spec|test).?(c|m)[jt]s?(x)'],
     rules: {
       'jest/consistent-test-it': ['error', { fn: 'test' }],
       'jest/valid-title': 'error',
