@@ -14,15 +14,6 @@
     "prepare": "husky",
     "commitlint": "commitlint --config commitlint.config.mjs --edit"
   },
-  "lint-staged": {
-    "*.?(c|m)[jt]s?(x)": [
-      "eslint --fix",
-      "prettier --write"
-    ],
-    "*.{json,y?(a)ml}": [
-      "prettier --write"
-    ]
-  },
   "dependencies": {
     "next": "15.2.0",
     "react": "^19.0.0",
