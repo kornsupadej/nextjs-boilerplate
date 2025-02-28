@@ -12,7 +12,7 @@
     "lint": "next lint",
     "format": "prettier \"**/*.?(c|m)[jt]s?(x)\" --write",
     "prepare": "husky",
-    "commitlint": "commitlint --config commitlint.config.mjs --verbose --edit"
+    "commitlint": "commitlint --config commitlint.config.ts --verbose --edit"
   },
   "dependencies": {
     "next": "15.2.0",
